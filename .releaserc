@@ -9,7 +9,7 @@
     [
       "@semantic-release/npm",
       {
-        "tarballDir": "dist"
+        "tarballDir": "tarball"
       }
     ],
     [
@@ -24,7 +24,7 @@
     [
       "@semantic-release/github",
       {
-        "assets": "dist/*.tgz"
+        "assets": "tarball/*.tgz"
       }
     ]
   ]

@@ -1,22 +1,25 @@
 {
   "name": "react-tournament-brackets",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "storybook dev -p 6006",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "test": "vitest",
     "preview": "vite preview",
     "build-storybook": "storybook build"
   },
   "dependencies": {
     "deepmerge": "^4.3.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
     "react-svg-pan-zoom": "^3.13.1",
     "styled-components": "^6.1.13",
     "vitest-browser-react": "^0.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "playwright": "^1.49.1",
@@ -41,10 +44,5 @@
     "vite-plugin-dts": "^4.4.0",
     "vitest": "^2.1.8"
   },
-  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf",
-  "eslintConfig": {
-    "extends": [
-      "plugin:storybook/recommended"
-    ]
-  }
+  "packageManager": "pnpm@9.15.1+sha512.1acb565e6193efbebda772702950469150cf12bcc764262e7587e71d19dc98a423dff9536e57ea44c49bdf790ff694e83c27be5faa23d67e0c033b583be4bfcf"
 }

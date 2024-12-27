@@ -1,6 +1,0 @@
-node_modules
-.fusebox
-=.vscode
-*.tgz
-dist
-devapp-build

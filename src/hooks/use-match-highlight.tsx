@@ -1,5 +1,5 @@
 import { useContext } from 'react';
-import { matchContext } from 'Core/match-context';
+import { matchContext } from '../core/match-context';
 
 const useMatchHighlightContext = ({ bracketSnippet = null }) => {
   const {

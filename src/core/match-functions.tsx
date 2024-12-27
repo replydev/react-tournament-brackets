@@ -1,4 +1,4 @@
-import { sortAlphanumerically } from 'Utils/string';
+import { sortAlphanumerically } from '../utils/string';
 
 export const generatePreviousRound = (matchesColumn, listOfMatches) =>
   matchesColumn.reduce((result, match) => {

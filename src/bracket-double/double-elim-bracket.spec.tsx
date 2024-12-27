@@ -1,9 +1,10 @@
 import React from 'react';
-import { render } from '@testing-library/react';
-import Match from 'Components/match';
+import { render } from 'vitest-browser-react'
+import Match from '../components/match';
 import SVGViewer from '../svg-viewer';
 import simpleDouble from '../mock-data/simple-data-double';
 import DoubleEliminationBracket from './double-elim-bracket';
+import { it } from "vitest";
 
 it('Renders a single elimination bracket without crashing', () => {
   render(

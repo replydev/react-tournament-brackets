@@ -1,6 +1,6 @@
 import React from 'react';
-import MatchWrapper from 'Core/match-wrapper';
-import { getPreviousMatches } from 'Core/match-functions';
+import MatchWrapper from '../core/match-wrapper';
+import { getPreviousMatches } from '../core/match-functions';
 import { calculatePositionOfMatchLowerBracket } from './calculate-match-position';
 import ConnectorsLower from './lower-connectors';
 

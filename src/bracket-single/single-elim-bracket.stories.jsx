@@ -1,10 +1,10 @@
 import React from 'react';
 // also exported from '@storybook/react' if you can deal with breaking changes in 6.1
 
-import useWindowSize from 'Hooks/use-window-size';
+import useWindowSize from '../hooks/use-window-size';
 import styled from 'styled-components';
-import Match from 'Components/match';
-import { createTheme } from 'Themes/themes';
+import Match from '../components/match';
+import { createTheme } from '../themes/themes';
 import SingleElimBracketLeaderboard from './single-elim-bracket';
 import SvgViewer from '../svg-viewer';
 import {

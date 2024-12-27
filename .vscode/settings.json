@@ -1,4 +1,14 @@
 {
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "peacock.color": "#fd9d5a"
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false
+  }
 }

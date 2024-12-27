@@ -5,7 +5,7 @@ import { MATCH_STATES } from './core/match-states';
 import SVGViewer from './svg-viewer';
 import { createTheme } from './themes/themes';
 
-export {
+export type {
   BracketLeaderboardProps,
   CommonTreeProps,
   ComputedOptionsType,

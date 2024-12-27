@@ -1,5 +1,5 @@
 import React from 'react';
-import MatchWrapper from 'Core/match-wrapper';
+import MatchWrapper from '../core/match-wrapper';
 import { calculatePositionOfFinalGame } from './calculate-match-position';
 import Connectors from './extra-final-connectors';
 

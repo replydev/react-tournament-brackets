@@ -1,5 +1,5 @@
 import React from 'react';
-import Connector from 'Components/connector';
+import Connector from '../components/connector';
 import { getCalculatedStyles } from '../settings';
 import {
   calculatePositionOfMatchUpperBracket,

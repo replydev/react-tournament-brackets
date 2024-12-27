@@ -1,50 +1,37 @@
-# React + TypeScript + Vite
+# React Tournament Brackets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a custom version of the [react-tournament-brackets](https://github.com/Shenato/react-tournament-brackets) repository, which fixes some import issues from Typescript and changes the entire build toolchain.
 
-Currently, two official plugins are available:
+In this way, this package should work out of the box after installation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The source code is licensed under the **GNU Lesser General Public License v2.1** as the original package.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Using npm:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```sh
+ npm install @replydev/react-tournament-brackets
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Using yarn:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```sh
+ yarn add @replydev/react-tournament-brackets
 ```
+
+Using pnpm:
+
+```sh
+ pnpm install @replydev/react-tournament-brackets
+```
+
+Using bun:
+
+```sh
+ bun add @replydev/react-tournament-brackets
+```
+
+## Usage
+
+Please refer to the [original guidelines](https://github.com/Shenato/react-tournament-brackets?tab=readme-ov-file#basic-usage) for usage.

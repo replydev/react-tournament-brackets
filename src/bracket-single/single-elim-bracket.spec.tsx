@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Match from 'Components/match';
+import Match from '../components/match';
 import SVGViewer from '../svg-viewer';
 import { simpleBracket } from '../mock-data/simple-data';
 import SingleEliminationBracket from './single-elim-bracket';

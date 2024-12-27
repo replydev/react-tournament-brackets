@@ -1,8 +1,8 @@
 import React from 'react';
 import { ThemeProvider } from 'styled-components';
-import { generatePreviousRound } from 'Core/match-functions';
-import { calculateSVGDimensions } from 'Core/calculate-svg-dimensions';
-import { MatchContextProvider } from 'Core/match-context';
+import { generatePreviousRound } from '../core/match-functions';
+import { calculateSVGDimensions } from '../core/calculate-svg-dimensions';
+import { MatchContextProvider } from '../core/match-context';
 
 import { DoubleElimLeaderboardProps, MatchType } from '../types';
 import { defaultStyle, getCalculatedStyles } from '../settings';

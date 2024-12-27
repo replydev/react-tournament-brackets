@@ -1,5 +1,5 @@
 import React from 'react';
-import useWindowSize from 'Hooks/use-window-size';
+import useWindowSize from '../hooks/use-window-size';
 import Match from 'Components/match';
 import WhiteTheme from 'Themes/white-theme';
 import SingleEliminationBracket from './bracket-single/single-elim-bracket';

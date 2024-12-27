@@ -13,6 +13,10 @@ export default defineConfig({
       rollupOptions: {
         // This is a library and we want to exclude React from the bundle since it will be a peer dependency
         external: ['react', 'react/jsx-runtime'],
+           output: {
+           assetFileNames: 'assets/[name][extname]',
+           entryFileNames: '[name].js',
+        }
       }
   },
 });

@@ -3,8 +3,8 @@ import React from 'react';
 
 import useWindowSize from '../hooks/use-window-size';
 import styled from 'styled-components';
-import Match from 'Components/match';
-import { createTheme } from 'Themes/themes';
+import Match from '../components/match';
+import { createTheme } from '../themes/themes';
 import SingleElimBracketLeaderboard from './single-elim-bracket';
 import SvgViewer from '../svg-viewer';
 import {

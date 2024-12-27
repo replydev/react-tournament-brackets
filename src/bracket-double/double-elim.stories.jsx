@@ -3,7 +3,7 @@ import React from 'react';
 
 import useWindowSize from '../hooks/use-window-size';
 import styled from 'styled-components';
-import Match from 'Components/match';
+import Match from '../components/match';
 import noPartyMockData from '../mock-data/data-double-no-show';
 import lastGameInLowerMockData from '../mock-data/data-double-last-game-lower';
 import lastGameInUpperMockData from '../mock-data/data-double-last-game-upper-double-playoffs';

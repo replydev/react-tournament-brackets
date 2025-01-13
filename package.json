@@ -22,7 +22,7 @@
   "devDependencies": {
     "vitest-browser-react": "^0.0.4",
     "@chromatic-com/storybook": "^3.2.3",
-    "@eslint/js": "^9.17.0",
+    "@eslint/js": "^9.18.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
     "@storybook/addon-essentials": "^8.4.7",

@@ -34,7 +34,7 @@
     "@storybook/test": "^8.4.7",
     "@types/node": "^22.10.5",
     "@types/react": "^18.3.18",
-    "@types/react-dom": "^18.3.5",
+    "@types/react-dom": "^19.0.1",
     "@vitejs/plugin-react": "^4.3.4",
     "globals": "^15.14.0",
     "playwright": "^1.49.1",
